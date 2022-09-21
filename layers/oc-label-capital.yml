@@ -14,18 +14,9 @@ layout:
   icon-image: circle-double
   icon-size: 0.6
   text-anchor: top
-  text-variable-anchor:
-    - top
-    - left
-    - right
-  text-radial-offset:
-    - interpolate
-    - - linear
-    - - zoom
-    - 6
-    - 0.5
-    - 8
-    - 0.4
+  text-offset:
+    - 0
+    - 0.2
   text-font:
     - Noto Sans Universal Regular
   text-size:

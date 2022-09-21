@@ -2,7 +2,7 @@ id: aeroway-runway
 type: line
 source: geolonia
 source-layer: aeroway
-minzoom: 8
+minzoom: 4
 filter:
   - all
   - - in

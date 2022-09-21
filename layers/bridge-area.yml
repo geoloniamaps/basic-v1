@@ -2,7 +2,6 @@ id: bridge-area
 type: fill
 source: geolonia
 source-layer: landcover
-minzoom: 8
 filter:
   - all
   - - '=='
@@ -19,3 +18,4 @@ paint:
     - '#e6e5e3'
     - 16
     - '#f5f5f5'
+  

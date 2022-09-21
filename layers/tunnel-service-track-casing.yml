@@ -2,7 +2,6 @@ id: tunnel-service-track-casing
 type: line
 source: geolonia
 source-layer: transportation
-minzoom: 8
 filter:
   - all
   - - '=='

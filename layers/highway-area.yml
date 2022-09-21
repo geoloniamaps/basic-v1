@@ -2,7 +2,6 @@ id: highway-area
 type: fill
 source: geolonia
 source-layer: transportation
-minzoom: 8
 filter:
   - '=='
   - $type

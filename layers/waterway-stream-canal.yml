@@ -2,7 +2,6 @@ id: waterway-stream-canal
 type: line
 source: geolonia
 source-layer: waterway
-minzoom: 8
 filter:
   - all
   - - in
