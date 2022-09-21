@@ -11,14 +11,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Build
+      - name: Run build
         run: |
           cd $GITHUB_WORKSPACE
-          node -v
           npm install
           npm run build
 
-      - name: Deploy
+      - name: Action step
         uses: geolonia/map-render-benchmark@refs/heads/main
         with:
           style: docs/style.json
