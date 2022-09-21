@@ -14,7 +14,6 @@ jobs:
       - name: Build
         run: |
           cd $GITHUB_WORKSPACE
-          node -v
           npm install
           npm run build
 
