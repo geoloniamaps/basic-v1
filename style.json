@@ -13,7 +13,7 @@
     }
   },
   "sprite": "https://geoloniamaps.github.io/basic-world/basic-world",
-  "glyphs": "https://deploy-preview-12--geolonia-glyphs.netlify.app/{fontstack}/{range}.pbf",
+  "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
