@@ -40,7 +40,8 @@ layout:
     - 14
     - 13
     - 24
-  text-field: '{name}'
+  # text-field: '{name}'
+  text-field: !!inc/file layers/components/remove-ja-place-suffix.yml
   text-max-width: 8
   visibility: visible
 paint:
