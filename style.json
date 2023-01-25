@@ -4,7 +4,7 @@
   "sources": {
     "geolonia": {
       "type": "vector",
-      "url": "https://tileserver.geolonia.com/v3/tiles.json?key=YOUR-API-KEY"
+      "url": "https://tileserver-dev.geolonia.com/v3/tiles.json?key=YOUR-API-KEY"
     },
     "dem": {
       "type": "raster-dem",
@@ -5514,8 +5514,8 @@
           0
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10,
-        "icon-size": 1
+        "text-size": 8,
+        "icon-size": 0.6
       }
     },
     {
@@ -5547,7 +5547,6 @@
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {
-          "base": 1,
           "stops": [
             [
               10,
@@ -5560,6 +5559,19 @@
           ]
         },
         "symbol-spacing": 500,
+        "icon-padding": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          6,
+          100,
+          8,
+          40
+        ],
         "text-field": "{ref}",
         "text-font": [
           "Noto Sans Universal Regular"
@@ -5569,8 +5581,8 @@
           0
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10,
-        "icon-size": 1
+        "text-size": 8,
+        "icon-size": 0.6
       }
     },
     {
@@ -5601,8 +5613,20 @@
       "layout": {
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
+        "icon-padding": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          6,
+          30,
+          8,
+          10
+        ],
         "symbol-placement": {
-          "base": 1,
           "stops": [
             [
               10,
@@ -5624,8 +5648,80 @@
           0
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10,
-        "icon-size": 1
+        "text-size": 9,
+        "icon-size": 0.7
+      }
+    },
+    {
+      "id": "poi-mountain",
+      "type": "symbol",
+      "source": "geolonia",
+      "source-layer": "mountain_peak",
+      "minzoom": 6,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "has",
+          "name"
+        ],
+        [
+          "!=",
+          "disputed",
+          "japan_northern_territories"
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Noto Sans Universal Regular"
+        ],
+        "text-anchor": "top",
+        "icon-anchor": "bottom",
+        "icon-image": [
+          "coalesce",
+          [
+            "image",
+            "mountain"
+          ],
+          [
+            "image",
+            "circle-stroked"
+          ]
+        ],
+        "icon-padding": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          50,
+          11,
+          100,
+          20,
+          2
+        ],
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.3
+        ],
+        "text-size": 12,
+        "text-max-width": 9,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
       }
     },
     {
