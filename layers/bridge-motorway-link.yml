@@ -10,7 +10,9 @@ filter:
     - bridge
   - - '=='
     - class
-    - motorway_link
+    - motorway
+  - - 'has'
+    - ramp
 layout:
   line-join: round
 paint:

@@ -10,7 +10,9 @@ filter:
     - bridge
   - - '=='
     - class
-    - motorway_link
+    - motorway
+  - - 'has'
+    - ramp
 paint:
   line-color: '#000000'
   line-width: !!inc/file layers/components/broad-road-width-casing.yml

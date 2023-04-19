@@ -867,7 +867,11 @@
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "paint": {
@@ -956,10 +960,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "paint": {
@@ -1412,6 +1420,10 @@
           "==",
           "class",
           "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2374,9 +2386,8 @@
           "motorway"
         ],
         [
-          "==",
-          "ramp",
-          1
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2441,10 +2452,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2657,7 +2672,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 8,
+      "minzoom": 5,
       "filter": [
         "all",
         [
@@ -2857,9 +2872,8 @@
           "motorway"
         ],
         [
-          "==",
-          "ramp",
-          1
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2927,10 +2941,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3133,7 +3151,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 8,
+      "minzoom": 5,
       "filter": [
         "all",
         [
@@ -3269,7 +3287,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 14,
+      "minzoom": 9,
       "filter": [
         "all",
         [
@@ -3288,6 +3306,10 @@
         "line-width": {
           "stops": [
             [
+              9,
+              0.1
+            ],
+            [
               14,
               0.1
             ],
@@ -3305,9 +3327,9 @@
           [
             "zoom"
           ],
-          14,
+          9,
           0.1,
-          20,
+          14,
           1
         ]
       }
@@ -3317,7 +3339,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 14,
+      "minzoom": 16,
       "filter": [
         "all",
         [
@@ -3340,7 +3362,7 @@
         "line-width": {
           "stops": [
             [
-              14,
+              16,
               0.3
             ],
             [
@@ -3357,7 +3379,7 @@
           [
             "zoom"
           ],
-          14,
+          16,
           0.1,
           20,
           1
@@ -3369,7 +3391,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 14,
+      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -3387,7 +3409,7 @@
         "line-offset": {
           "stops": [
             [
-              14,
+              12,
               2
             ],
             [
@@ -3407,7 +3429,7 @@
         "line-opacity": {
           "stops": [
             [
-              14,
+              12,
               0.1
             ],
             [
@@ -3420,7 +3442,7 @@
         "line-width": {
           "stops": [
             [
-              14,
+              12,
               1.5
             ],
             [
@@ -3447,7 +3469,11 @@
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3498,10 +3524,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3793,7 +3823,11 @@
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3872,10 +3906,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -4074,6 +4112,10 @@
           "==",
           "class",
           "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -4137,6 +4179,10 @@
           "==",
           "class",
           "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -5399,59 +5445,6 @@
         "text-halo-blur": 0.5,
         "text-color": "#415CBD",
         "text-halo-width": 2,
-        "text-halo-color": "#ffffff",
-        "text-opacity": [
-          "step",
-          [
-            "zoom"
-          ],
-          0,
-          12,
-          0,
-          14,
-          1
-        ]
-      }
-    },
-    {
-      "id": "poi-airport-primary",
-      "type": "symbol",
-      "source": "geolonia",
-      "source-layer": "aerodrome_label",
-      "minzoom": 8,
-      "filter": [
-        "all",
-        [
-          "has",
-          "iata"
-        ],
-        [
-          "!=",
-          "disputed",
-          "japan_northern_territories"
-        ]
-      ],
-      "layout": {
-        "text-padding": 2,
-        "text-font": [
-          "Noto Sans Universal Regular"
-        ],
-        "text-anchor": "top",
-        "icon-image": "airport",
-        "text-field": "{name}",
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-size": 12,
-        "text-max-width": 9,
-        "visibility": "visible",
-        "icon-size": 1
-      },
-      "paint": {
-        "text-halo-blur": 0.5,
-        "text-color": "#666",
-        "text-halo-width": 1,
         "text-halo-color": "#ffffff"
       }
     },
@@ -5514,8 +5507,8 @@
           0
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10,
-        "icon-size": 1
+        "text-size": 8,
+        "icon-size": 0.6
       }
     },
     {
@@ -5524,7 +5517,7 @@
       "metadata": {},
       "source": "geolonia",
       "source-layer": "transportation_name",
-      "minzoom": 6,
+      "minzoom": 9,
       "filter": [
         "all",
         [
@@ -5547,7 +5540,6 @@
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {
-          "base": 1,
           "stops": [
             [
               10,
@@ -5560,6 +5552,19 @@
           ]
         },
         "symbol-spacing": 500,
+        "icon-padding": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          6,
+          100,
+          8,
+          40
+        ],
         "text-field": "{ref}",
         "text-font": [
           "Noto Sans Universal Regular"
@@ -5569,8 +5574,8 @@
           0
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10,
-        "icon-size": 1
+        "text-size": 8,
+        "icon-size": 0.6
       }
     },
     {
@@ -5579,7 +5584,7 @@
       "metadata": {},
       "source": "geolonia",
       "source-layer": "transportation_name",
-      "minzoom": 6,
+      "minzoom": 8,
       "filter": [
         "all",
         [
@@ -5601,8 +5606,20 @@
       "layout": {
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
+        "icon-padding": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          6,
+          30,
+          8,
+          10
+        ],
         "symbol-placement": {
-          "base": 1,
           "stops": [
             [
               10,
@@ -5624,8 +5641,80 @@
           0
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10,
-        "icon-size": 1
+        "text-size": 9,
+        "icon-size": 0.7
+      }
+    },
+    {
+      "id": "poi-mountain",
+      "type": "symbol",
+      "source": "geolonia",
+      "source-layer": "mountain_peak",
+      "minzoom": 6,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "has",
+          "name"
+        ],
+        [
+          "!=",
+          "disputed",
+          "japan_northern_territories"
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Noto Sans Universal Regular"
+        ],
+        "text-anchor": "top",
+        "icon-anchor": "bottom",
+        "icon-image": [
+          "coalesce",
+          [
+            "image",
+            "mountain"
+          ],
+          [
+            "image",
+            "circle-stroked"
+          ]
+        ],
+        "icon-padding": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          50,
+          11,
+          100,
+          20,
+          2
+        ],
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.3
+        ],
+        "text-size": 12,
+        "text-max-width": 9,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
       }
     },
     {
@@ -6051,13 +6140,15 @@
       ],
       "layout": {
         "icon-padding": 50,
-        "icon-image": "circle",
-        "icon-size": 0.3,
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          0.1
+        "icon-image": "circle-stroked",
+        "icon-size": 0.4,
+        "text-variable-anchor": [
+          "top",
+          "bottom",
+          "left",
+          "right"
         ],
+        "text-radial-offset": 0.3,
         "text-font": [
           "Noto Sans Universal Regular"
         ],
@@ -6146,14 +6237,16 @@
         ]
       ],
       "layout": {
-        "icon-image": "circle",
-        "icon-size": 0.3,
+        "icon-image": "circle-stroked",
+        "icon-size": 0.5,
         "icon-padding": 30,
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          0.1
+        "text-variable-anchor": [
+          "top",
+          "bottom",
+          "left",
+          "right"
         ],
+        "text-radial-offset": 0.3,
         "text-font": [
           "Noto Sans Universal Regular"
         ],
@@ -6235,28 +6328,16 @@
         ]
       ],
       "layout": {
-        "icon-image": "circle",
+        "icon-image": "circle-stroked",
         "icon-size": 0.5,
         "icon-padding": 40,
-        "text-anchor": "top",
-        "text-offset": {
-          "stops": [
-            [
-              6,
-              [
-                0,
-                0.2
-              ]
-            ],
-            [
-              12,
-              [
-                0,
-                0
-              ]
-            ]
-          ]
-        },
+        "text-variable-anchor": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "text-radial-offset": 0.3,
         "text-font": [
           "Noto Sans Universal Regular"
         ],
@@ -6271,7 +6352,7 @@
           6,
           14,
           13,
-          24
+          17
         ],
         "text-field": "{name}",
         "text-max-width": 8,
@@ -6330,28 +6411,16 @@
         ]
       ],
       "layout": {
-        "icon-image": "circle",
+        "icon-image": "circle-stroked",
         "icon-size": 0.5,
         "icon-padding": 40,
-        "text-anchor": "top",
-        "text-offset": {
-          "stops": [
-            [
-              6,
-              [
-                0,
-                0.2
-              ]
-            ],
-            [
-              12,
-              [
-                0,
-                0
-              ]
-            ]
-          ]
-        },
+        "text-variable-anchor": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "text-radial-offset": 0.3,
         "text-font": [
           "Noto Sans Universal Regular"
         ],
@@ -6366,7 +6435,7 @@
           6,
           14,
           13,
-          24
+          22
         ],
         "text-field": "{name}",
         "text-max-width": 8,
@@ -6538,7 +6607,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(68, 68, 68, 1)",
+        "text-color": "#000000",
         "text-halo-width": 1.2,
         "text-halo-color": "rgba(255,255,255,0.8)"
       }
@@ -6904,6 +6973,95 @@
       }
     },
     {
+      "id": "poi-airport",
+      "type": "symbol",
+      "source": "geolonia",
+      "source-layer": "aerodrome_label",
+      "minzoom": 8,
+      "filter": [
+        "all",
+        [
+          "has",
+          "iata"
+        ],
+        [
+          "!=",
+          "disputed",
+          "japan_northern_territories"
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Noto Sans Universal Regular"
+        ],
+        "text-anchor": "top",
+        "icon-image": "circle-stroked",
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-size": 12,
+        "text-max-width": 9,
+        "visibility": "visible",
+        "icon-size": 0.6
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "poi-airport-primary",
+      "type": "symbol",
+      "source": "geolonia",
+      "source-layer": "aerodrome_label",
+      "minzoom": 8,
+      "filter": [
+        "all",
+        [
+          "has",
+          "iata"
+        ],
+        [
+          "!=",
+          "class",
+          "military"
+        ],
+        [
+          "!=",
+          "disputed",
+          "japan_northern_territories"
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Noto Sans Universal Regular"
+        ],
+        "text-anchor": "top",
+        "icon-image": "airport",
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-size": 12,
+        "text-max-width": 9,
+        "visibility": "visible",
+        "icon-size": 1
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
       "id": "place-city-pref-capital-ja",
       "type": "symbol",
       "source": "geolonia",
@@ -7109,6 +7267,84 @@
       },
       "paint": {
         "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-width": 1.5,
+        "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
+      "id": "oc-label-capital",
+      "type": "symbol",
+      "source": "geolonia",
+      "source-layer": "place",
+      "minzoom": 4,
+      "maxzoom": 6,
+      "filter": [
+        "all",
+        [
+          "==",
+          [
+            "get",
+            "class"
+          ],
+          "capital"
+        ]
+      ],
+      "layout": {
+        "icon-image": "circle-double",
+        "icon-size": 0.6,
+        "text-anchor": "top",
+        "text-variable-anchor": [
+          "top",
+          "left",
+          "right"
+        ],
+        "text-radial-offset": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          6,
+          0.5,
+          8,
+          0.4
+        ],
+        "text-font": [
+          "Noto Sans Universal Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              20
+            ]
+          ]
+        },
+        "text-field": "{name}",
+        "text-max-width": 8,
+        "visibility": "visible"
+      },
+      "paint": {
+        "icon-color": "#000000",
+        "icon-opacity": {
+          "stops": [
+            [
+              11.9,
+              1
+            ],
+            [
+              12,
+              0
+            ]
+          ]
+        },
+        "text-color": "rgba(68, 68, 68, 1)",
         "text-halo-width": 1.5,
         "text-halo-color": "rgba(255,255,255,0.8)"
       }

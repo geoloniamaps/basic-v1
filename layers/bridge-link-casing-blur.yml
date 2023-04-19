@@ -10,10 +10,12 @@ filter:
     - bridge
   - - in
     - class
-    - primary_link
-    - secondary_link
-    - tertiary_link
-    - trunk_link
+    - primary
+    - secondary
+    - tertiary
+    - trunk
+  - - 'has'
+    - ramp
 paint:
   line-color: '#000000'
   line-width:

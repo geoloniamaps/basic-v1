@@ -12,9 +12,8 @@ filter:
   - - '=='
     - class
     - motorway
-  - - '=='
+  - - 'has'
     - ramp
-    - 1
 layout:
   line-cap: round
   line-join: round
