@@ -2,7 +2,7 @@ id: highway-motorway-link
 type: line
 source: geolonia
 source-layer: transportation
-minzoom: 12
+minzoom: 14
 filter:
   - all
   - - '!in'
