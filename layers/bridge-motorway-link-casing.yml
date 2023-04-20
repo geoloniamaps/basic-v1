@@ -2,7 +2,7 @@ id: bridge-motorway-link-casing
 type: line
 source: geolonia
 source-layer: transportation
-minzoom: 8
+minzoom: 14
 filter:
   - all
   - - '=='
@@ -10,7 +10,9 @@ filter:
     - bridge
   - - '=='
     - class
-    - motorway_link
+    - motorway
+  - - '!has'
+    - ramp
 layout:
   line-join: round
 paint:

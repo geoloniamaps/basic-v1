@@ -2,7 +2,7 @@ id: highway-link
 type: line
 source: geolonia
 source-layer: transportation
-minzoom: 13
+minzoom: 14
 filter:
   - all
   - - '!in'
@@ -11,10 +11,12 @@ filter:
     - tunnel
   - - in
     - class
-    - primary_link
-    - secondary_link
-    - tertiary_link
-    - trunk_link
+    - primary
+    - secondary
+    - tertiary
+    - trunk
+  - - 'has'
+    - ramp
 layout:
   line-cap: round
   line-join: round
