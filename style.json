@@ -856,7 +856,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 8,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -867,7 +867,11 @@
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "paint": {
@@ -956,10 +960,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "paint": {
@@ -1412,6 +1420,10 @@
           "==",
           "class",
           "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2359,7 +2371,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 12,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -2374,9 +2386,8 @@
           "motorway"
         ],
         [
-          "==",
-          "ramp",
-          1
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2429,7 +2440,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 13,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -2441,10 +2452,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2842,7 +2857,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 12,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -2857,9 +2872,8 @@
           "motorway"
         ],
         [
-          "==",
-          "ramp",
-          1
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -2915,7 +2929,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 13,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -2927,10 +2941,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3440,7 +3458,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 8,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -3451,7 +3469,11 @@
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3502,10 +3524,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3786,7 +3812,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
-      "minzoom": 8,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -3797,7 +3823,11 @@
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -3876,10 +3906,14 @@
         [
           "in",
           "class",
-          "primary_link",
-          "secondary_link",
-          "tertiary_link",
-          "trunk_link"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
+        ],
+        [
+          "has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -4078,6 +4112,10 @@
           "==",
           "class",
           "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
@@ -4141,6 +4179,10 @@
           "==",
           "class",
           "motorway"
+        ],
+        [
+          "!has",
+          "ramp"
         ]
       ],
       "layout": {
