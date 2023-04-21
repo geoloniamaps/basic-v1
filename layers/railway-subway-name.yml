@@ -12,8 +12,7 @@ filter:
     - subclass
     - subway
 layout:
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size: 11
   text-field: '{name}'
   text-max-width: 8

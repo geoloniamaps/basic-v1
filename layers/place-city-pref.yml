@@ -13,8 +13,7 @@ filter:
   # - - has
   #   - jflag
 layout:
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size:
     stops:
       - - 3

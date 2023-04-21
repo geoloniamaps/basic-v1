@@ -26,8 +26,7 @@ layout:
     - 0.5
     - 8
     - 0.4
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size:
     stops:
       - - 3

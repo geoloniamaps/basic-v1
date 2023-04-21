@@ -15,8 +15,7 @@ filter:
     - disputed
     - japan_northern_territories
 layout:
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size: 14
   text-field: '{name}'
   text-max-width: 5

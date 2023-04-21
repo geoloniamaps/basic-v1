@@ -29,8 +29,7 @@ layout:
     - left
     - right
   text-radial-offset: 0.3
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size:
     - interpolate
     - - linear

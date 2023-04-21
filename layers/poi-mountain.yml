@@ -15,8 +15,7 @@ filter:
     - japan_northern_territories
 layout:
   text-padding: 2
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-anchor: top
   icon-anchor: bottom
   icon-image:
