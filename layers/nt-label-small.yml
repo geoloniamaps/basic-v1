@@ -11,8 +11,7 @@ filter:
   - '21'
   - '22'
 layout:
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size:
     base: 1.2
     stops:

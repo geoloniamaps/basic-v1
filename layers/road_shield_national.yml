@@ -34,8 +34,7 @@ layout:
     - 8
     - 40
   text-field: '{ref}'
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-offset:
     - 0
     - 0

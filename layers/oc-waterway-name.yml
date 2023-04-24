@@ -12,8 +12,7 @@ filter:
       - jflag
     - false
 layout:
-  text-font:
-    - Noto Sans Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size: 14
   text-field: '{name}'
   text-max-width: 5

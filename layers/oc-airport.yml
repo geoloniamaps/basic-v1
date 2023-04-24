@@ -12,8 +12,7 @@ filter:
     - airport
 layout:
   text-padding: 2
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-anchor: top
   icon-image: airport
   text-field: '{name}'

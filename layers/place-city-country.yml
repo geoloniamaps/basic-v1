@@ -15,8 +15,7 @@ filter:
       - osm_id
     - false
 layout:
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size:
     stops:
       - - 0

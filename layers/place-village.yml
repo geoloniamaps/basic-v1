@@ -34,8 +34,7 @@ layout:
   text-offset:
     - 0
     - 0.1
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size:
     base: 1.2
     stops:

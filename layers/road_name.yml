@@ -18,8 +18,7 @@ filter:
     - brunnel
     - tunnel
 layout:
-  text-font:
-    - Noto Sans Universal Regular
+  text-font: !!inc/file layers/components/text-font.yml
   text-size: 13
   text-field: '{name}'
   text-max-width: 8
