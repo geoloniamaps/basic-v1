@@ -2309,43 +2309,6 @@
       }
     },
     {
-      "id": "building",
-      "type": "fill",
-      "source": "geolonia",
-      "source-layer": "building",
-      "minzoom": 15,
-      "paint": {
-        "fill-color": "rgba(236, 236, 236, 0.9)",
-        "fill-outline-color": "#ccc",
-        "fill-antialias": true
-      }
-    },
-    {
-      "id": "building-3d",
-      "type": "fill-extrusion",
-      "metadata": {
-        "visible-on-3d": true
-      },
-      "source": "geolonia",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {
-        "visibility": "none"
-      },
-      "paint": {
-        "fill-extrusion-color": "#D7D4D1",
-        "fill-extrusion-height": [
-          "get",
-          "render_height"
-        ],
-        "fill-extrusion-base": [
-          "get",
-          "render_min_height"
-        ],
-        "fill-extrusion-opacity": 0.5
-      }
-    },
-    {
       "id": "highway-area",
       "type": "fill",
       "source": "geolonia",
@@ -4754,6 +4717,43 @@
       },
       "paint": {
         "icon-opacity": 0.5
+      }
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "source": "geolonia",
+      "source-layer": "building",
+      "minzoom": 15,
+      "paint": {
+        "fill-color": "rgba(236, 236, 236, 0.9)",
+        "fill-outline-color": "#ccc",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "building-3d",
+      "type": "fill-extrusion",
+      "metadata": {
+        "visible-on-3d": true
+      },
+      "source": "geolonia",
+      "source-layer": "building",
+      "minzoom": 15,
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-extrusion-color": "#D7D4D1",
+        "fill-extrusion-height": [
+          "get",
+          "render_height"
+        ],
+        "fill-extrusion-base": [
+          "get",
+          "render_min_height"
+        ],
+        "fill-extrusion-opacity": 0.5
       }
     },
     {
