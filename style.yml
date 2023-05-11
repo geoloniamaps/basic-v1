@@ -1,4 +1,4 @@
-$name: Geolonia Basic World
+$name: Geolonia Basic v1
 
 # カスタマイズここまで
 
@@ -13,7 +13,7 @@ sources:
     url: https://tileserver.geolonia.com/gsi-dem/tiles.json?key=YOUR-API-KEY
     attribution: <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">© GSI Japan</a>
 
-sprite: https://geoloniamaps.github.io/basic-world/basic-world
+sprite: https://geoloniamaps.github.io/basic-v1/basic-v1
 glyphs: https://glyphs.geolonia.com/{fontstack}/{range}.pbf
 layers:
   - !!inc/file layers/background.yml

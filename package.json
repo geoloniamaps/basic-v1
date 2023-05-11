@@ -1,7 +1,7 @@
 {
-  "name": "basic-world",
+  "name": "basic-v1",
   "version": "1.0.0",
-  "description": "The world style for Geolonia",
+  "description": "Geolonia Basic v1",
   "main": "index.js",
   "scripts": {
     "start": "charites serve style.yml --provider geolonia",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geoloniamaps/basic-world.git"
+    "url": "git+https://github.com/geoloniamaps/basic-v1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/geoloniamaps/basic-world/issues"
+    "url": "https://github.com/geoloniamaps/basic-v1/issues"
   },
-  "homepage": "https://github.com/geoloniamaps/basic-world#readme",
+  "homepage": "https://github.com/geoloniamaps/basic-v1#readme",
   "devDependencies": {
     "@unvt/charites": "^0.4.0",
     "http-close": "^1.0.0",

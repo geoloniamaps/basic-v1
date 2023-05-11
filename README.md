@@ -1,16 +1,16 @@
-# Basic World
+# Basic v1
 
-このリポジトリは、Geolonia の [Basic World スタイル](https://geoloniamaps.github.io/basic-world)をカスタマイズし公開するためのテンプレートリポジトリです。
+このリポジトリは、Geolonia の [Basic v1 スタイル](https://geoloniamaps.github.io/basic-v1)をカスタマイズし公開するためのテンプレートリポジトリです。
 
 以下のような簡単な手順でお好みのスタイルにカスタマイズし、地図として表示できます。
 
-* [DEMO](https://geoloniamaps.github.io/basic-world/)
-* [DEMO on editor](https://editor.geolonia.com/?style=https://geoloniamaps.github.io/basic-world/style.json)
+* [DEMO](https://geoloniamaps.github.io/basic-v1/)
+* [DEMO on editor](https://editor.geolonia.com/?style=https://geoloniamaps.github.io/basic-v1/style.json)
 
 
 ## ユーザーがカスタマイズする際の手順
 
-* [Use this template](https://github.com/geoloniamaps/basic-world/generate) ボタンでこのリポジトリをコピー。
+* [Use this template](https://github.com/geoloniamaps/basic-v1/generate) ボタンでこのリポジトリをコピー。
 * GitHub Pages を 設定。
 * `style.yml` を編集。
 * しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のように指定してください。
