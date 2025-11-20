@@ -22,7 +22,6 @@ layers:
   - !!inc/file layers/water-river-lake-ja.yml
   - !!inc/file layers/oc-ocean.yml
   - !!inc/file layers/oc-glacier.yml
-  - !!inc/file layers/hillshading.yml
   - !!inc/file layers/oc-lake-ja.yml
   - !!inc/file layers/oc-lake-blur.yml
   - !!inc/file layers/oc-lake.yml
